@@ -1,2 +1,5 @@
 hello world
 test
+if(pavlov == "admin"){
+	test2 = "success";
+}
