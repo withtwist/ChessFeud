@@ -1,5 +1,5 @@
 hello world
 test
-if(pavlov == "admin"){
+if(isAdmin(pavlov)){
 	test2 = "success";
 }
