@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:orientation="vertical" >
-
+
     <ImageView
         android:id="@+id/imageView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher"
-        android:layout_gravity="center_horizontal" />
+        android:layout_width="280dp"
+        android:layout_height="307dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/chess_logo_web_red" />
 
     <Button
         android:id="@+id/button1"
