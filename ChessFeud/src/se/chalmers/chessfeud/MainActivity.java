@@ -1,6 +1,7 @@
 package se.chalmers.chessfeud;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -40,19 +41,19 @@ public class MainActivity extends Activity implements OnClickListener{
     	
     	switch(id){
     	case R.id.button_play:
-    		Log.d("Play", "Hej");
+    		startActivity(new Intent(this, PlayActivity.class));
     		break;
     	case R.id.button_myprofile:
-    		Log.d("MyProfile", "Hej");
+    		startActivity(new Intent(this, ProfileActivity.class));
     		break;
     	case R.id.button_settings:
-    		Log.d("Settings", "Hej");
+    		startActivity(new Intent(this, SettingsActivity.class));
     		break;
     	case R.id.button_about:
-    		Log.d("About", "Hej");
+    		startActivity(new Intent(this, AboutActivity.class));
     		break;
     	default:
-    		Log.d("Default", "Hej");
+    		Log.d("Default", "Should not get here!");
     	}
     }
 }
