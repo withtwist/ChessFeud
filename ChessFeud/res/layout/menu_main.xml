@@ -39,6 +39,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:text="About" />
+        android:text="About2" />
 
 </LinearLayout>
