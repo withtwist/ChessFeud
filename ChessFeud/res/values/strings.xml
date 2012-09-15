@@ -8,6 +8,9 @@
     <string name ="settings">SETTINGS</string>
     <string name ="my_profile">MY PROFILE</string>
     <string name ="about">About</string>
-    
+    <string name ="play_activity">PlayActivity</string>
+    <string name ="settings_activity">SettingsActivity</string>
+    <string name ="profile_activity">ProfileActivity</string>
+    <string name ="about_activity">AboutActivity</string>
 
 </resources>
